@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<body   bgcolor="#1d50c6">
+    <center>
+        <marquee><h1 style="color:yellow">Welcome to CSK Fan page</h1></marquee>
+
+        <div align="center">
+
+            <a href="schedule.html"><button><pre>CSK Match schedule 2020            </pre></button></a>
+
+            <a href="team.html"><button><pre>Meet the team                      </pre></button></a>
+
+            <a href="home.html"><button><pre>CSK Fan page                      </pre></button></a>
+        </div>
+        <br><br>
+        <form action="">
+            <fieldset style="width:0px;color:aliceblue;font-family:Arial">
+
+                <legend align="center" style="color:yellow;">Fill to be part of CSK Fan club</legend>
+                <br>
+                <img src="static/register.jpg" height="500in" />
+                <div>
+                    <label><pre>Name:                    </pre></label>
+                    <input type="text" name="name">
+                </div>
+                <div>
+                    <label><pre>Email:                    </pre></label>
+                    <input type="email" name="email">
+                </div>
+                <div>
+                    <label><pre>Mobile:                    </pre></label>
+                    <input type="number" name="email" min="0">
+                </div>
+                <br>
+                <div>
+                    <label><pre>Date of birth:           </pre></label>
+                    <input type="date" name="dob">
+                </div>
+                <br>
+                <div>
+                    <label><pre>Tell us why you like CSK:</pre> </label>
+                    <textarea name="reason" rows="6"></textarea>
+                </div>
+                <br>
+                <div>
+                    <label><pre>Gender:                  </pre> </label>
+                    <label>Male</label>
+                    <input type="radio" name="gender">
+                    <label>Female</label>
+                    <input type="radio" name="gender">
+                </div>
+                <br>
+                <div>
+                    <label><pre>Favorite player:          </pre> </label>
+                    <select name="player">
+                        <optgroup label="Batsman">
+
+                            <option value="MS Dhoni">MS Dhoni</option>
+                            <option value="Suresh Raina">Suresh Raina</option>
+                            <option value="Shane Watson">Shane Watson</option>
+                        </optgroup>
+                        <optgroup label="Bowler">
+                            <option value="Deepak Chahar">Deepak Chahar</option>
+                            <option value="Shardul Thakur">Shardul Thakur</option>
+                        </optgroup>
+                        <optgroup label="All Rounder">
+                            <option value="Dwayne Bravo">Dwayne Bravo</option>
+                            <option value="Ravindra Jadeja">Ravindra Jadeja</option>
+
+                        </optgroup>
+                    </select>
+                </div>
+                <br><br />
+              
+                <input type="submit" value="Click here to become part of CSK" style="background: #e4c621">
+            </fieldset>
+        </form>
+        <br />
+        <font color="white" style="Times-news-roman"><b>For further queries , contact us at fanclub@csk.co.in</b><br /><br /></font>
+        <img src="static/csk-logo.gif" height="200px" />
+
+    </center>
+</body>
+</html>
